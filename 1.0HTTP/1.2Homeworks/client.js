@@ -1,5 +1,4 @@
 const net = require('net');
-const { threadId } = require('node:worker_threads');
 
 class Request {
     constructor(options){
